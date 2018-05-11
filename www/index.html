@@ -1,56 +1,35 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <!--
-        Customize this policy to fit your own app's needs. For more guidance, see:
-            https://github.com/apache/cordova-plugin-whitelist/blob/master/README.md#content-security-policy
-        Some notes:
-            * gap: is required only on iOS (when using UIWebView) and is needed for JS->native communication
-            * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
-            * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
-                * Enable inline JS: add 'unsafe-inline' to default-src
-        -->
+<head>    
+    <!-- Required meta tags
     <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">
-
-    <!-- Required meta tags-->
+    -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <meta name="format-detection" content="telephone=no">
     <meta name="msapplication-tap-highlight" content="no">
-
     <!-- Your app title -->
-    <title>menu dislisante</title>
-
-    <!-- This template defaults to the iOS CSS theme. To support both iOS and material design themes, see the Framework7 Tutorial at the link below:
-        http://www.idangero.us/framework7/tutorials/maintain-both-ios-and-material-themes-in-single-app.html
-     -->
-
-
+    <title>Bid Colisão</title>
     <link rel="stylesheet" href="css/styles.css">
+<link href="https://stackpath.bootstrapcdn.com/bootswatch/4.1.1/lumen/bootstrap.min.css" rel="stylesheet" integrity="sha384-87sz15XXg/vK1YUT8aQFH3EIw5aC/jbpolvTC264SVJfjOIBWv0V/o2FyyKclY8G" crossorigin="anonymous">
+<script src="https://www.gstatic.com/firebasejs/5.0.1/firebase.js"></script>
     
 </head>
-
 <body>
- <div class="scrollmenu">
-  <a href="#home">Home</a>
-  <a href="#news">News</a>
-  <a href="#contact">Contact</a>
-  <a href="#about">About</a>
-  <a href="#support">Support</a>
-  <a href="#blog">Blog</a>
-  <a href="#tools">Tools</a>  
-  <a href="#base">Base</a>
-  <a href="#custom">Custom</a>
-  <a href="#more">More</a>
-  <a href="#logo">Logo</a>
-  <a href="#friends">Friends</a>
-  <a href="#partners">Partners</a>
-  <a href="#people">People</a>
-  <a href="#work">Work</a>
-</div>
-
+    
+    <h3>Bem vindo ao Bid do Colisão</h3>
+    <div class="col-md-4">
+      <a href="bid/acesso.html" class="btn btn-primary btn-lg btn-block">Acessar</a>
+    </div>
+  
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" ></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" ></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" ></script>
+<script src="https://www.gstatic.com/firebasejs/4.10.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/4.10.1/firebase-auth.js"></script>
+<script type="text/javascript" src="js/realtime-database.js"></script>
 </body>
 
 </html>
